@@ -1,0 +1,71 @@
+<HTML>
+<HEAD>
+<TITLE>
+</TITLE>
+<STYLE>
+/*.wrapper1{
+  position: fixed;
+  top: 10%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}   */
+
+a{
+  display: block;
+  width: 225px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  FONT-WEIGHT: 700;
+  font-family: Garamond;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+a span{
+  position: relative;
+  z-index: 2;
+}
+
+a:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #A60000;
+  transition: all .35s;
+}
+
+a:hover{
+  color: #fff;
+}
+
+a:hover:after{
+  width: 100%;
+}
+</STYLE>
+</HEAD>
+<BODY BGCOLOR="#FFF5EE">
+<!--Меню, N2-->
+<FONT SIZE="4" FACE="Garamond">
+<DIV STYLE="TEXT-ALIGN:JUSTIFY">
+        <CENTER><P><FONT COLOR="#82572b"><H2>Меню:</H2></FONT></CENTER>
+
+        <P><div class="wrapper">
+             <a HREF="b3.htm" TARGET="N3"><span>Основы</span></a>
+        </div></P>
+        <P><div class="wrapper">
+             <a HREF="b4.htm" TARGET="N3""><span>Аккорды и переборы</span></a>
+        </div></P>
+        <P><div class="wrapper">
+             <a HREF="b5.htm" TARGET="N3""><span>Доп. информация</span></a>
+        </div></P>
+</BODY>
+</HTML>
